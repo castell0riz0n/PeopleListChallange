@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "people-list-assignment": {
+    "people-list-challenge": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/people-list-assignment",
+            "outputPath": "dist/people-list-challenge",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -57,18 +57,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "people-list-assignment:build"
+            "browserTarget": "people-list-challenge:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "people-list-assignment:build:production"
+              "browserTarget": "people-list-challenge:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "people-list-assignment:build"
+            "browserTarget": "people-list-challenge:build"
           }
         },
         "test": {
@@ -102,7 +102,7 @@
         }
       }
     },
-    "people-list-assignment-e2e": {
+    "people-list-challenge-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -110,11 +110,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "people-list-assignment:serve"
+            "devServerTarget": "people-list-challenge:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "people-list-assignment:serve:production"
+              "devServerTarget": "people-list-challenge:serve:production"
             }
           }
         },
@@ -130,5 +130,5 @@
       }
     }
   },
-  "defaultProject": "people-list-assignment"
+  "defaultProject": "people-list-challenge"
 }
