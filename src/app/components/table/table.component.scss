@@ -1,22 +1,29 @@
+$fullWidth: 100%;
+$padding : 25px;
 table {
-    width: 100%;
-  }
-  
-  .mat-form-field {
-    font-size: 14px;
-    width: 100%;
-  }
+  width: $fullWidth;
+}
 
-  th.mat-sort-header-sorted {
-    color: black;
-  }
+.mat-form-field {
+  font-size: 14px;
+  width: $fullWidth;
+}
 
-  .costum-padding {
-    padding-right: 15px;
-  }
+th.mat-sort-header-sorted {
+  color: black;
+}
 
-  .spinner-styles {
-    display: flex;
-    justify-content: center;
-    align-items: center
-  }
+.check-box-padding {
+  padding-right: $padding;
+}
+
+.custome-padding {
+  padding-left: $padding
+}
+
+
+.spinner-styles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

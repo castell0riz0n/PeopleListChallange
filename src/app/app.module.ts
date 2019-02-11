@@ -18,7 +18,8 @@ import {
   MatSortModule,
   MatSnackBarModule,
   MatProgressSpinnerModule,
-  MatButtonToggleModule
+  MatButtonToggleModule,
+  MatTooltipModule
 } from '@angular/material';
 
 
@@ -44,13 +45,14 @@ import { AppComponent } from './components/app/app.component';
     MatCheckboxModule,
     MatButtonModule,
     MatSortModule,
-    FlexLayoutModule,
-    HttpModule,
-    HttpClientModule,
     MatSnackBarModule,
     MatProgressSpinnerModule,
     MatButtonToggleModule,
     MatIconModule,
+    MatTooltipModule,
+    HttpModule,
+    HttpClientModule,
+    FlexLayoutModule,
     BrowserAnimationsModule
   ],
   providers: [
