@@ -1,14 +1,16 @@
-# PeopleListAssignment
+# People List Challenge
+Created with latest major vesrion of Angular (7) and Google Material
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
+## how to run the app
+befor runnig the app you need to install latest LTS version of NodeJs from `https://nodejs.org`
 
-## Development server
+also i deploy the app on heroku with this Address : `https://people-list-challenge.herokuapp.com/`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Extract the zip file in folder
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Open command prompt (CMD) on windows or Terminal in Mac
+Navigate to folder you extract the files and run `npm i` (it will install node packages ...)
+After installing node modules now run `ng serve` command for a dev server. Navigate to `http://localhost:4200/`. The app will Automatically reload if you change any of the source files.
 
 ## Build
 
@@ -16,12 +18,19 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+I try to write some simple tests for the project using angular default test engine
+Run `ng test` to execute the unit tests via `Karma`.
 
-## Running end-to-end tests
+## Back End
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+I use PostMan Mock server to simulate simple communications with API to `get` or `post` data
 
-## Further help
+## Some Description
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+1. I used setTimeout() to create some delay to see ui animations on the loading data . 
+2. I decided to put my filter on all the data recived from server .
+                so if you try to find someone by id or name it will works
+                (the UI didn't show the ID column)
+3. For sorting by people's Name you should just click on table header (Name column)
+4. 
+

@@ -61,6 +61,10 @@ export class TableComponent implements OnInit {
   }
 
   showToasty(res: any) {
-    this.notificationService.open(res.text(), null, { duration: this.duration});
+    this.notificationService.open(res.text(), null, {
+      duration: this.duration,
+      panelClass: ['mat-snak-custom'],
+      verticalPosition: 'top'
+    });
   }
 }

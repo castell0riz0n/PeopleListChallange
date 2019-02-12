@@ -1,3 +1,10 @@
 .root-card {
-    max-width: 600px;
+    min-width: 600px;
+  }
+
+  .mat-card {
+    background: #e8e8e8 !important;
+  }
+  .mat-card-content, .mat-card-header .mat-card-title, .mat-card-subtitle{
+    font-size:16px;
   }
