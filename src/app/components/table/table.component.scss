@@ -28,13 +28,21 @@ th.mat-sort-header-sorted {
   align-items: center;
 }
 
-.mat-snak-custom {
-  color: hotpink;
-}
 .mat-button-toggle-group, .mat-button-toggle-standalone{
   box-shadow: none;
 }
 .mat-header-cell{
   color:black;
   font-size:1.2em;
+}
+
+.mat-button-toggle-checked {
+  background: none !important;
+}
+
+.mat-button-toggle-checked.green {
+  color: green;
+}
+.mat-button-toggle-checked.red {
+  color: red;
 }

@@ -27,10 +27,9 @@ I use PostMan Mock server to simulate simple communications with API to `get` or
 
 ## Some Description
 
-1. I used setTimeout() to create some delay to see ui animations on the loading data . 
-2. I decided to put my filter on all the data recived from server .
+1. I used setTimeout() to create some delay (about 2.5 secconds) to see ui animations on the loading data . 
+2. I decided to put my filter on all the data received from server .
                 so if you try to find someone by id or name it will works
                 (the UI didn't show the ID column)
 3. For sorting by people's Name you should just click on table header (Name column)
-4. 
-
+4. because i'm on a business trip i write the code piece by piece on my free times . but i think it takes me 3 to 4 hours.
